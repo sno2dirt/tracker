@@ -560,5 +560,6 @@ class Tracker
         $this->messageRepository->addMessage($updater->getMessages());
 
         return $success;
+
     }
 }
